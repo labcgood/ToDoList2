@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0416452C206305009E0000 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0416442C206305009E0000 /* TitleTableViewCell.swift */; };
+		0D0416472C206333009E0000 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0416462C206333009E0000 /* ContentTableViewCell.swift */; };
+		0D04164D2C218D60009E0000 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04164C2C218D60009E0000 /* EditTableViewController.swift */; };
+		0D04164F2C218EB1009E0000 /* EditTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04164E2C218EB0009E0000 /* EditTitleTableViewCell.swift */; };
+		0D0416512C218EC5009E0000 /* EditContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0416502C218EC5009E0000 /* EditContentTableViewCell.swift */; };
 		0D90B79A2C1DCF6D00CBC9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B7992C1DCF6D00CBC9B0 /* AppDelegate.swift */; };
 		0D90B79C2C1DCF6D00CBC9B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B79B2C1DCF6D00CBC9B0 /* SceneDelegate.swift */; };
-		0D90B79E2C1DCF6D00CBC9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B79D2C1DCF6D00CBC9B0 /* ViewController.swift */; };
 		0D90B7A12C1DCF6D00CBC9B0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D90B7A02C1DCF6D00CBC9B0 /* Base */; };
 		0D90B7A32C1DCF6D00CBC9B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D90B7A22C1DCF6D00CBC9B0 /* Assets.xcassets */; };
 		0D90B7A62C1DCF6D00CBC9B0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D90B7A52C1DCF6D00CBC9B0 /* Base */; };
+		0D90B7B02C1DD11100CBC9B0 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B7AF2C1DD11100CBC9B0 /* ToDoItem.swift */; };
+		0D90B7B42C201CD700CBC9B0 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B7B32C201CD700CBC9B0 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D0416442C206305009E0000 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		0D0416462C206333009E0000 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		0D04164C2C218D60009E0000 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		0D04164E2C218EB0009E0000 /* EditTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleTableViewCell.swift; sourceTree = "<group>"; };
+		0D0416502C218EC5009E0000 /* EditContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContentTableViewCell.swift; sourceTree = "<group>"; };
 		0D90B7962C1DCF6D00CBC9B0 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D90B7992C1DCF6D00CBC9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D90B79B2C1DCF6D00CBC9B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D90B79D2C1DCF6D00CBC9B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D90B7A02C1DCF6D00CBC9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D90B7A22C1DCF6D00CBC9B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D90B7A52C1DCF6D00CBC9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D90B7A72C1DCF6D00CBC9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D90B7AF2C1DD11100CBC9B0 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		0D90B7B32C201CD700CBC9B0 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				0D90B7992C1DCF6D00CBC9B0 /* AppDelegate.swift */,
 				0D90B79B2C1DCF6D00CBC9B0 /* SceneDelegate.swift */,
-				0D90B79D2C1DCF6D00CBC9B0 /* ViewController.swift */,
 				0D90B79F2C1DCF6D00CBC9B0 /* Main.storyboard */,
+				0D90B7AF2C1DD11100CBC9B0 /* ToDoItem.swift */,
+				0D90B7B32C201CD700CBC9B0 /* ListTableViewController.swift */,
+				0D0416442C206305009E0000 /* TitleTableViewCell.swift */,
+				0D0416462C206333009E0000 /* ContentTableViewCell.swift */,
+				0D04164C2C218D60009E0000 /* EditTableViewController.swift */,
+				0D04164E2C218EB0009E0000 /* EditTitleTableViewCell.swift */,
+				0D0416502C218EC5009E0000 /* EditContentTableViewCell.swift */,
 				0D90B7A22C1DCF6D00CBC9B0 /* Assets.xcassets */,
 				0D90B7A42C1DCF6D00CBC9B0 /* LaunchScreen.storyboard */,
 				0D90B7A72C1DCF6D00CBC9B0 /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D90B79E2C1DCF6D00CBC9B0 /* ViewController.swift in Sources */,
+				0D0416452C206305009E0000 /* TitleTableViewCell.swift in Sources */,
 				0D90B79A2C1DCF6D00CBC9B0 /* AppDelegate.swift in Sources */,
+				0D0416512C218EC5009E0000 /* EditContentTableViewCell.swift in Sources */,
+				0D04164F2C218EB1009E0000 /* EditTitleTableViewCell.swift in Sources */,
+				0D90B7B02C1DD11100CBC9B0 /* ToDoItem.swift in Sources */,
+				0D04164D2C218D60009E0000 /* EditTableViewController.swift in Sources */,
+				0D90B7B42C201CD700CBC9B0 /* ListTableViewController.swift in Sources */,
 				0D90B79C2C1DCF6D00CBC9B0 /* SceneDelegate.swift in Sources */,
+				0D0416472C206333009E0000 /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +318,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDoList;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDoList;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
